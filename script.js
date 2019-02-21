@@ -86,6 +86,7 @@ function losefocus(){
 setGradient();
 
 //  event listeners for color picking
+window.addEventListener("onload", randomColors)
 rndmBtn.addEventListener("mouseup", animateButton);
 rndmBtn.addEventListener("mouseup", losefocus);
 color1.addEventListener("input", setGradient);
