@@ -8,6 +8,12 @@ body {
     background: linear-gradient(to right, #73ff01, #0bebeb);
 }
 
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    color: rgba(0,0,0,0.5);
+}
+
 h1 {
     font: 600 3.5em 'Raleway', sans-serif;
     color: rgba(0,0,0,0.5);
