@@ -77,12 +77,17 @@ function animateButton() {
     color2.classList.toggle("animated");
 };
 
+function losefocus(){
+    rndmBtn.blur();
+};
+
 
 // call function that sets initial gradient on page load
 setGradient();
 
 //  event listeners for color picking
 rndmBtn.addEventListener("mouseup", animateButton);
+rndmBtn.addEventListener("mouseup", losefocus);
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 rndmBtn.addEventListener("click", randomColors);

@@ -11,10 +11,11 @@ body {
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 0.7em;
-    line-height: 1em;
+    line-height: 2em;
+    text-align: center;
     width: 50%;
     margin: auto;
-    margin-bottom: 10px;       
+    margin-bottom: 25px;       
     color: rgba(0,0,0,0.5);
 }
 
@@ -54,6 +55,12 @@ h2 {
     background-color:  rgba(0,0,0,0.01);;
     border-radius: 20px;
     cursor: pointer;
+}
+
+#randomizerButton:hover, 
+#randomizerButton:active, 
+#randomizerButton:focus { 
+    outline: none;
 }
 
 #randomizerButton:hover {
